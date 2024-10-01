@@ -1,1 +1,3 @@
-myvenv/
+tema2/myvenv
+tema2/db.sqlite3
+tema2/mysite/__pycache__

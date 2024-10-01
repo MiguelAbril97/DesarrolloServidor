@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mi blog </title>
+    </head>
+    <body>
+        {% for post in posts_mostrar %}
+        <article>
+            <time>published: {{ post.published_date}}</time>
+            <h2><a href="">{{ post.title}}</a></h2>
+            <p>{{post.text | linebreaks}}</p>
+        </article>
+        {% endfor %}
+    </body>
+</html>
